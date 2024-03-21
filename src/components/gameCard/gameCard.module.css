@@ -1,0 +1,89 @@
+.gameContainer{
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 200px;
+    width: 330px;
+}
+
+.gameContainer:hover{
+    background-color: #4c4b4b;
+    scale: 1.1;
+    cursor: default;
+}
+
+.dateContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.teamsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.homeName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    flex: 1;
+}
+
+.vs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    flex: 1;
+}
+
+.awayName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.scoreContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 1em;
+}
+
+.homeScore{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+
+.awayScore{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/*.deleteButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.deleteButton{
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}*/

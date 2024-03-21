@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6rem;
+}
+
+.dateContainer {
+    color: #999;
+    margin: 2em;
+}
+
+.date{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.gameContainer{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeName{
+    font-size: 2em;
+}
+
+.gameScore{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    font-size: 1.5em;
+    color:#aeaaaa;
+    font-weight: bold;
+}
+
+.awayName{
+    font-size: 2em;
+}
+
