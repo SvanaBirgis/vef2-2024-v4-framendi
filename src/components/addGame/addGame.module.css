@@ -5,6 +5,13 @@
     padding: 2em;
 }
 
+@media (max-width: 768px) {
+    .container {
+        margin: 1em;
+        padding: 1em;
+    }
+}
+
 .addGameTitle{
     display: flex;
     justify-content: center;
@@ -21,18 +28,20 @@
 
 .dateContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .teamsContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2rem;
 }
 
-
 .homeName{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
@@ -50,6 +59,7 @@
 
 .awayName{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex: 1;
@@ -58,6 +68,7 @@
 
 .scoreContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2rem;
     margin-bottom: 1em;
@@ -66,18 +77,39 @@
 .homeScore{
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-
 }
 
 .awayScore{
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .dateTitle, .homeNameTitle, .awayNameTitle, .homeScoreTitle, .awayScoreTitle {
+        font-size: 1rem;
+        margin-right: 0.5em;
+    }
+
+    .homeName, .awayName {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .vs {
+        font-size: 1.5rem;
+    }
+
+    .homeScore, .awayScore {
+        font-size: 1rem;
+    }
 }
 
 .addGameButtonContainer{

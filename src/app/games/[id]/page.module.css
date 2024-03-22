@@ -16,16 +16,18 @@
     text-align: center;
 }
 
-.gameContainer{
+.gameContainer {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    width: 60%;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
-.homeName{
+.homeName, .awayName {
     font-size: 2em;
+    white-space: nowrap; 
 }
 
 .gameScore{
@@ -35,9 +37,8 @@
     font-size: 1.5em;
     color:#aeaaaa;
     font-weight: bold;
+    margin: 0.5em;
+    flex-shrink: 0;
 }
 
-.awayName{
-    font-size: 2em;
-}
 
