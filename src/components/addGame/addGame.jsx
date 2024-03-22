@@ -79,6 +79,7 @@ export default function AddGame({handleAddGame, handleAddGameError}) {
                 <div className={styles.addGameButtonContainer}>
                     <button type="submit" className={styles.addButton}><Image
                         src="/check.png"
+                        alt=""
                         width={40}
                         height={45}
                         quality={100}

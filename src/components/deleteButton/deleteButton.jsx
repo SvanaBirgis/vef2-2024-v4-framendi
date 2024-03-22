@@ -40,6 +40,7 @@ export default function DeleteButton({ gameId, handleDeleteSuccess }) {
                 {loading && <PacmanLoader color="white"/>}
                 {!loading && <Image
                     src="./trash.svg"
+                    alt=""
                     width={40}
                     height={45}
                     quality={100}
